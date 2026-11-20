@@ -1,10 +1,14 @@
 # Vinted Real Price
 
+[![Install from Greasy Fork](https://img.shields.io/greasyfork/v/606442?label=Greasy%20Fork&color=670000)](https://greasyfork.org/scripts/606442-vinted-real-price)
+[![Greasy Fork installs](https://img.shields.io/greasyfork/dt/606442?label=installs)](https://greasyfork.org/scripts/606442-vinted-real-price)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/r-carissimi/vinted-real-price/blob/main/LICENSE)
+
 **See what you'll actually pay on Vinted — shipping included.**
 
 Vinted shows the item price and the price "incl." Buyer Protection fee, but the shipping cost only appears after you open each item. Vinted Real Price is a userscript that replaces the "incl." price on every listing with the real total — **item + fee + cheapest shipping to you** — and adds a **"Real price"** option to Vinted's *Sort by* menu.
 
-![Vinted search results with real prices including shipping](docs/screenshot.png)
+![Vinted search results with real prices including shipping](https://raw.githubusercontent.com/r-carissimi/vinted-real-price/main/docs/screenshot.png)
 
 ## Features
 
@@ -18,8 +22,10 @@ Vinted shows the item price and the price "incl." Buyer Protection fee, but the 
 ## Install
 
 1. Install a userscript manager: [Tampermonkey](https://www.tampermonkey.net/) (Firefox, Chrome, Edge, Safari) or [Violentmonkey](https://violentmonkey.github.io/).
-2. Click **[Install Vinted Real Price](https://github.com/r-carissimi/vinted-real-price/raw/main/vinted-real-price.user.js)** and confirm in the userscript manager.
+2. Open **[Vinted Real Price on Greasy Fork](https://greasyfork.org/scripts/606442-vinted-real-price)**, click **Install this script** and confirm in the userscript manager.
 3. Open or reload Vinted.
+
+Updates are delivered automatically through Greasy Fork. You can also install straight from this repository with the [raw script link](https://github.com/r-carissimi/vinted-real-price/raw/main/vinted-real-price.user.js).
 
 ## How it works
 
@@ -45,6 +51,6 @@ The script calls the same endpoint for each visible item, from the page and with
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/r-carissimi/vinted-real-price/blob/main/LICENSE)
 
 *Not affiliated with or endorsed by Vinted.*
